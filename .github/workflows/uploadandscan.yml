@@ -18,7 +18,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
          name: WebGoatWar
-         path: WebGoat-2023.4/target/webgoat.war
+         path: target/webgoat.war
   #Pipeline-Scan       
   Pipeline-Scan:
     needs: Build
