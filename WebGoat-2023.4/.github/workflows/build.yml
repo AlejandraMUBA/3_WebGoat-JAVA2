@@ -1,5 +1,6 @@
 name: "Pull requests build"
 on:
+
     pull_request:
         paths-ignore:
             - '.txt'
